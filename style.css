@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body{
+    background-color: #072227;
+}
+
+.heading{
+    color: #DA1212;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.accordian{
+    margin: 10px;
+    padding: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35858B;
+    color: #AEFEFF;
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contant{
+    background-color: #4FBDBA;
+    color: #1a4144;
+    font-size: 1.4em;
+    border-radius: 10px;
+    margin-top: 1vh;
+    height: 0;
+    text-align:center;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.active{
+    height: auto;
+    padding: 10px;
+}
+
+.readmore{
+    /* text-decoration: none; */
+    color: #da12129a;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.596); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
